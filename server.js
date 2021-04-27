@@ -14,7 +14,7 @@ const CUBE_PREFIX = 'pano-';
 const CUBE_SUFFIXES = ['l', 'r', 'b', 'f', 'u', 'd'];
 
 const app = express();
-app.get('/', async (req, res) => {
+app.get('/convert', async (req, res) => {
     try {
         const {baseUrl} = req.query;
         const hashName = makeHash(baseUrl);
