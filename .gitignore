@@ -10,3 +10,4 @@ gen
 
 outputs/*
 !outputs/.gitkeep
+node_modules

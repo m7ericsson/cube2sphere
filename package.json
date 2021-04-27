@@ -1,0 +1,19 @@
+{
+  "name": "cube2sphere",
+  "version": "1.0.0",
+  "repository": "ssh://git@github.com/m7ericsson/cube2sphere.git",
+  "author": "m7ericsson <uemoto@ju-net.jp>",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto": "^1.0.1",
+    "execa": "^5.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^9.1.0"
+  }
+}
